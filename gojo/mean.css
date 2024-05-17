@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px 2px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    user-select: none;
+
+}
+
+.a {
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.745), rgba(0, 0, 0, 0.677)),
+        url("https://w.forfun.com/fetch/b6/b686a9b588d38528cd3231c7a355aabe.jpeg");
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(2, 2, 115, 0.181);
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.362);
+}
+
+nav .carda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-size: 20px;
+    color: #eee;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav .card a {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav .logo a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header .conteiner {
+    width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.header .conteiner h1 {
+    color: #fff;
+    font-style: italic;
+    font-size: 120px;
+    margin: 30px;
+}
+
+.header .conteiner h3 {
+    color: #fff;
+    margin: 10px;
+    font-size: 50px;
+    justify-content: start;
+}
+
+.header .conteiner p {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 30px;
+}
+
+.header .conteiner button {
+    box-shadow: 0 0 20px white;
+    background: transparent;
+    padding: 13px 75px;
+    border-radius: 10px;
+    margin: 20px;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.header .conteiner button:hover {
+    box-shadow: 0 0 40px white;
+    background: transparent;
+    padding: 13px 75px;
+    border-radius: 10px;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.header .conteiner button:active {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 20px white;
+    background: transparent;
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin: 20px;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.w {
+    margin: 10px;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    height: 500px;
+}
+
+.w .s {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    background: linear-gradient(450deg, rgba(0, 0, 0, 0.489),
+            rgba(0, 0, 0, 0.489)), url('https://wallpapers.com/images/hd/gojo-satoru-and-night-scene-k9iiafgr6qy0e0ej.jpg');
+    background-size: cover;
+}
+
+.w .b {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    background: linear-gradient(450deg, rgba(0, 0, 0, 0.489),
+            rgba(0, 0, 0, 0.489)), url('https://wallpapercave.com/wp/wp8602467.jpg');
+    background-size: cover;
+}
+
+.w .s,
+.b {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    padding: 80px 0px;
+    color: #fff;
+    text-align: center;
+    height: 500px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.642);
+    margin: 10px;
+}
+
+.w .s h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-top: 140px;
+    font-size: 60px;
+}
+
+.w .b h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-top: 140px;
+    font-size: 60px;
+}
+
+.q .c {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    background: linear-gradient(450deg, rgba(0, 0, 0, 0.489),
+            rgba(0, 0, 0, 0.489)), url('https://i.pinimg.com/originals/ef/9d/04/ef9d048e62b6caf70eab957fd56ceef4.jpg');
+    background-size: cover;
+
+}
+
+.q .c h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-top: 140px;
+    font-size: 60px;
+}
+
+.q .d {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    background: linear-gradient(450deg, rgba(0, 0, 0, 0.489),
+            rgba(0, 0, 0, 0.489)), url('https://anime.atsit.in/id/wp-content/uploads/2022/09/siapa-yuta-di-jujutsu-kaisen-0-kenapa-bukan-dia-di-season-1-1.jpg');
+    background-size: cover;
+}
+
+.q .d h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-top: 140px;
+    font-size: 60px;
+}
+
+.q {
+    width: 100%;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.q .c,
+.d {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 10px;
+    text-align: center;
+    height: 500px;
+    width: 50%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.642);
+    margin: 10px;
+}
